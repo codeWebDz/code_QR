@@ -1,0 +1,15 @@
+html{
+    background:rgb(252, 223, 61) ;
+
+}
+h1 {
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+h2{
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+}
