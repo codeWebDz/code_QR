@@ -19,7 +19,7 @@
 <body width= "100%">
     
 <!------------menubar -------------->
-    <section class="h-80 bg-no-repeat bg-scroll  bg-left-top " 
+    <section id="menu" class="h-80 bg-no-repeat bg-scroll  bg-left-top " 
         style="background-image: url(img/FONT1.png);background-size:300px 300px;margin-left: -40px; margin-top: -65px;">
     
         <ul class="flex justify-center  pt-32 font-semibold space-x-5 text-sm  ml-10" style="font-size:22px;">
@@ -32,13 +32,13 @@
     <section class="absolute z-10 header  scale-90  fixed" style="margin-top: -80px; margin-bottom: 80px;">
             
         <!-----------services ------------>
-        <section class="flex-col justify-center pt-5">
-            <div class="flex  h-12 w-80 pl-5  ">
+        <section class="flex-col justify-center -mt-20">
+            <div class="flex  h-12 w-80 ">
                 <img src="img/flèche.png" class="w-8 h-8 mr-2" alt="fleche jaune">
                 <h1 class=" font-semibold font-sans text-3xl  "><a href="service.html">Nos Services</a> </h1>
             </div>  
-            <hr class="bg-amber-200 h-1 border-0 ">
-            <ul class="m-10 list-inside list-image-[url(img/listmark.png)] h-50  text-black font-sans " style="font-size: 20px; ">
+            <hr class="bg-amber-200 h-1 w-80 ml-5 border-0 ">
+            <ul class="m-10 list-inside list-image-[url(img/listmark.png)] h-50  text-black font-sans font-semibold text-2xl" style="font-size: 20px; ">
                 <li>Création et rafraîchissement de logo .</li>
                 <li>Conception de support publicitaire(Flayer, affiche..) .</li>
                 <li>Pannaux publicitaires & plaques d’indication .</li>
@@ -48,23 +48,48 @@
         </section>
 
 
-
-        <!-----------realisations ------------>
-
-        <section>
-            <div class="flex h-12 w-75 pl-5  bg-scroll">
-                <img src="img/flèche.png" class="w-8 h-8 mr-2" alt="fleche jaune">
-                <h1 class="font-semibold font-sans text-3xl  "> <a href="realisation.html">Nos Réalisations </a> </h1>
-            </div>  
-            
-        </section>
-
-    </section> 
-    <!------------footer -------------->
-
-    <section class=" h-36  bg-no-repeat   rotate-180 " 
-    style=" background-image: url(img/FONT1.png);background-size:240px  240px;background-position-y: -12px;background-position-x: -80px; margin-top:268px;">
+<!-----------realisations ------------>
+    <section >
+        <div class="flex h-11 w-75 pl-5  ml-4 mt-2">
+            <img src="img/flèche.png" class="w-8 h-8 mr-2" alt="fleche jaune">
+            <h1 class=" font-semibold font-sans text-3xl  " style="font-size: 26px;"> <a href="realisation.html">Nos Réalisations </a> </h1>
+        </div>  
+        <hr class="bg-amber-200 h-1 w-80 ml-5 border-0 ">
     </section>
 
+    <!-----------catalogue d'images  ------------>
+
+    <section class="pt-4 mr-2" >
+        <img src="img/rodina.png " width="368"  alt="rodina">
+        <img src="img/cosider.png" width="368" alt="cosider"> 
+        <div class="flex w-1/2" >
+            <img src="img/station1.png"  alt="station">
+            <img src="img/station2.png" width="180"  alt="station">
+        </div>
+        <img src="img/station3.png" width="368" alt="station facade">
+        <div class="flex ">
+            <div class="">
+                <img src="img/palaisdor1.png" width="207"  alt="palais d'or">
+                <img src="img/palaisdor3.png" width="207"  alt="palais d'or">
+            </div>
+            <img src="img/palaisdor2.png" width="155"  alt="palais d'or">
+        </div>
+            <img src="img/scco.png" width="368" alt="scco ">
+            <img src="img/real2.png" width="368" alt="cosider">
+        <div class="flex">
+            <img src="img/real3.png" width="176"  alt="cosider">
+            <img src="img/real1.png" width="180"  alt="">
+        </div>
+
+    </section>
+
+    <!------------footer --------------->
+        
+    <section class="h-64  bg-no-repeat bg-scroll rotate-180 " 
+            style=" background-image: url(img/FONT1.png);background-size:300px 300px; background-position-y: -38px;background-position-x: -20px; margin-top:-150px;">
+            <a href="#menu" class="m-7  "><img src="img/go-back.png" width="70"  class="  mx-10 rounded-full animate-bounce  shadow-2xl  " alt="go back to "></a>
+        </section>
+
+</section>
 </body>
 </html>
